@@ -1,0 +1,66 @@
+/* READ CSS */
+.read h1 {
+    color: #ccd6f6;
+    font-size: 50px;
+    margin-left: 10%;
+ }
+ .read-box img {
+     border-radius: 10px;
+     object-fit: cover;
+     width: 100% !important;
+     height: 100% !important;
+ }
+ .read-grid {
+     display: grid;
+     gap: 2rem;
+     grid-template-columns: 1fr 1fr;
+     margin-left: 2%;
+     padding: 180px;
+     margin-top: -10%;
+ }
+ .box1 img {
+    height: 135% !important;
+}
+ .box3 img {
+    height: 105% !important;
+    margin-top: 20%;
+}
+.box5 {
+    margin-top: 25%;
+}
+.box8  {
+    height: 85% !important;
+}
+.box9 {
+    height: 120%;
+}
+.box10 {
+    margin-top: -18%;
+    height: 175%;
+}
+.box5 {
+    margin-top: 20%;
+}
+
+.box11 {
+    margin-top: 8%;
+    height: 110% !important;
+}
+.box12 {
+    margin-top: 13%;
+}
+.box13 {
+    margin-top: 13%;
+    height: 50% !important;
+}
+.box14 {
+    margin-top: -1%;
+    height: 80% !important;
+}
+.box15 {
+    margin-top: -45%;
+}
+.box16 {
+    margin-top: -25%;
+}
+
