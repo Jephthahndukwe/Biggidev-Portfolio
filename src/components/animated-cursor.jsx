@@ -21,6 +21,8 @@ function AnimCursor() {
             'textarea',
             'button',
             'link',
+            'text',
+            'h1',
          ]}
 
          className="AnimCursor" />

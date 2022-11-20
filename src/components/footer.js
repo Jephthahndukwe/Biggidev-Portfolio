@@ -1,6 +1,6 @@
-import React from "react";
-import { FaStar } from "react-icons/fa";
-import { FaShareAlt } from "react-icons/fa";
+import React from "react"
+import { FaStar } from "react-icons/fa"
+import { FaShareAlt } from "react-icons/fa"
 
 
 const Footer = () => {

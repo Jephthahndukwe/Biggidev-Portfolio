@@ -1,8 +1,9 @@
-import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import React from "react"
+import { FaGithub } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { Link } from 'react-router-dom'
 
 
 const Contact = () => {
@@ -17,7 +18,7 @@ const Contact = () => {
               <a href=""><FaInstagram className="icon Instagram" /></a>
               <a href=""><FaLinkedin className="icon Linkedin" /></a>
             </div>
-                <button className="btn">Say Hello</button>
+               <Link to='ContactTwo'><button className="btn">Say Hello</button></Link>
             </div>
         </body>
     )

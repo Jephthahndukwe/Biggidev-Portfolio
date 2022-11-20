@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,200;0,300;0,600;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
 .navbar nav ul li {
     list-style: none;
     display: inline-block;
@@ -49,7 +54,7 @@ nav a {
 .circle {
     position: absolute;
     margin-left: 8%;
-    margin-top: 29.7%;
+    margin-top: 31%;
 }
 .git2 {
     animation: none;
@@ -61,12 +66,12 @@ nav a {
 .circle2 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 44.6%;
+    margin-top: 45.8%;
 }
 .circle3 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 57.9%;
+    margin-top: 59%;
 }
 
 .about2-hr {
@@ -147,41 +152,41 @@ nav a {
 .circle4 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 83.7%;
+    margin-top: 85%;
 }
 .circle5 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 96.8%;
+    margin-top: 98%;
 }
 .circle6 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 108%;
+    margin-top: 109.3%;
 }
 .circle7 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 121%;
+    margin-top: 122.3%;
 }
 .circle8 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 130.5%;
+    margin-top: 131.7%;
 }
 
 .calender {
     animation: none;
     position: absolute;
     margin-left: 76.2%;
-    margin-top: 84.3%;
+    margin-top: 85.5%;
     font-size: 14px;
 }
 .calender2 {
     animation: none;
     position: absolute;
     margin-left: 79.7%;
-    margin-top: 97.2%;
+    margin-top: 98.4%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -189,7 +194,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 80%;
-    margin-top: 108.5%;
+    margin-top: 109.5%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -197,7 +202,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 79%;
-    margin-top: 121.5%;
+    margin-top: 122.5%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -205,7 +210,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 79%;
-    margin-top: 131%;
+    margin-top: 132.3%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -275,10 +280,17 @@ nav a {
     position: absolute;
     animation: none;
     margin-left: 25.5%;
-    margin-top: 1%;
-    margin-top: 142.7%;
+    margin-top: 144%;
     font-size: 25px;
+    animation: slide 1s linear infinite;
 }
+@keyframes slide {
+    0% {
+        transform: translateX(20px);
+    }
+}
+/* .continue:hover .arrow {
+} */
 .icons {
     position: absolute;
     margin-top: 2.5%;

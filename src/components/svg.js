@@ -22,7 +22,7 @@ const Svg = () => {
     return (
         <>
 
-           <svg xlinkHref="http://www.w3.org/2000/svg" xmlLang='en'
+        <svg xlinkHref="http://www.w3.org/2000/svg" xmlLang='en'
             viewBox="0 0 500 500">
         <title>Circular Text Path</title>
 
@@ -33,7 +33,7 @@ const Svg = () => {
                 transform="rotate(12,250,250)"/>
         </defs>
         <rect width="100%" height="100%" fill="none" />
-        <text>
+     <text>
             <textPath xlinkHref="#textcircle"
                     aria-label="All for One &amp; One for All"
                     textLength="1000">Jephthah Ndukwe </textPath>

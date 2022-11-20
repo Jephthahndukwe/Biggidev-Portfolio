@@ -1,9 +1,11 @@
-import React from 'react'; 
-import DHF2 from '../img/DHF2.png';
-import Trading2 from '../img/Trading2.png';
-import TravelBetter2 from '../img/TravelBetter2.png';
-import EduLearn from '../img/EduLearn.png';
-import Kezzthechef from '../img/Kezzthechef.png';
+import React from 'react';
+import DHF2 from '../img/DHF2.png'
+import Trading2 from '../img/Trading2.png'
+import TravelBetter2 from '../img/TravelBetter2.png'
+import EduLearn from '../img/EduLearn.png'
+import Kezzthechef from '../img/Kezzthechef.png'
+import { FaLongArrowAltRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Work_page =() => {
   return (
@@ -33,6 +35,7 @@ const Work_page =() => {
                   <img src={Kezzthechef} className='kezz' />
               </div>
         </div>
+       <Link to='/Resume' className='workA'><h3 className='wor'>Lets Go To My Resume <FaLongArrowAltRight className='arrow3' /></h3></Link>
     </div>
   )
 }

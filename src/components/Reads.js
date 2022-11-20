@@ -1,23 +1,23 @@
 import React from 'react';
-import '../Reads.css';
-import Read1 from '../img/Read1.png';
-import Read2 from '../img/Read2.jpg';
-import Read3 from '../img/Read3.png';
-import Read4 from '../img/Read4.png';
-import Read5 from '../img/Read5.png';
-import Read6 from '../img/Read6.png';
-import Read7 from '../img/Read7.png';
-import Read8 from '../img/Read8.png';
-import Read9 from '../img/Read9.png';
-import Read10 from '../img/Read10.png';
-import Read11 from '../img/Read11.png';
-import Read12 from '../img/Read12.png';
-import Read13 from '../img/Read13.png';
-import Read14 from '../img/Read14.png';
-import Read15 from '../img/Read15.png';
-import Read16 from '../img/Read16.jpg';
-import Read17 from '../img/Read17.png';
-import Read18 from '../img/Read18.png';
+import '../Reads.css'
+import Read1 from '../img/Read1.png'
+import Read2 from '../img/Read2.jpg'
+import Read3 from '../img/Read3.png'
+import Read4 from '../img/Read4.png'
+import Read5 from '../img/Read5.png'
+import Read6 from '../img/Read6.png'
+import Read7 from '../img/Read7.png'
+import Read8 from '../img/Read8.png'
+import Read9 from '../img/Read9.png'
+import Read10 from '../img/Read10.png'
+import Read11 from '../img/Read11.png'
+import Read12 from '../img/Read12.png'
+import Read13 from '../img/Read13.png'
+import Read14 from '../img/Read14.png'
+import Read15 from '../img/Read15.png'
+import Read16 from '../img/Read16.jpg'
+import Read17 from '../img/Read17.png'
+import Read18 from '../img/Read18.png'
 
 function Reads() {
   return (   

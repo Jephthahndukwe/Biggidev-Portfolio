@@ -10,12 +10,10 @@ import Audio from '../audio/Jephthah-Ndukwe.mp3';
 import React from "react";
 import { Link } from 'react-router-dom';
 
-
 const Home = () => {
     return (
         <body>
             <div className='Home'>
-
                 <div className='home-list'>
                    <a href='https://github.com/Jephthahndukwe'><FaGithub className='icon github' /></a><br></br><br></br>
                    <a href='https://twitter.com/CoachJephthah'><FaTwitter className='icon twitter' /></a><br></br><br></br>
@@ -38,9 +36,9 @@ const Home = () => {
                     </div> */}
                 </div>
                 <div className='home-text'>
-                   <Link to='/About_section'><h1 className='nav-link'>About</h1></Link>
-                    <Link to='/work2'><h1 className='nav-link'>Work</h1></Link>
-                    <Link to='/contactTwo'><h1 className='nav-link'>Contact</h1></Link>
+                <h1 className='nav-link'><Link to='/About_section'>About</Link></h1>
+                <h1 className='nav-link'><Link to='/work2'>Work</Link></h1>
+                <h1 className='nav-link'><Link to='/contactTwo'>Contact</Link></h1>
                 </div>
                 </div>
                 <div className='home-mail'>

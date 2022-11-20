@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,200;0,300;0,600;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 body {
   background-color: #0a192f;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 svg {
@@ -36,7 +37,6 @@ text {
   }
 }
 
-
 .Home h1 {
   font-size: 7rem;
   font-family: 'Damion', cursive;
@@ -63,6 +63,9 @@ text {
 }
 .home-text {
   margin-top: -30%;
+}
+.home-text a {
+  color: #a8b2d1;
 }
 .home-list {
   position: fixed;
@@ -216,6 +219,7 @@ text {
   height: 300px;
   border-top: 5px;
   border: 2px solid #3263ac;
+  resize: both;
 }
 .img {
   background-color: #0b1e3a65;
@@ -530,7 +534,7 @@ margin-top: 10%;
   margin-top: 15%;
 }
 .footer h3 {
-  text-align: center;
+  margin-left: 41%;
   color: #9ca9d2;
   font-weight: 200;
   font-family: 'Dancing Script', cursive;
@@ -560,7 +564,7 @@ margin-top: 10%;
 .footer-p {
   text-align: center;
   margin-top: -2%;
-  margin-left: 12%;
+  margin-left: 3%;
 }
 
 
@@ -583,6 +587,26 @@ margin-top: 10%;
 .contactTwo a {
   color: #a8b2d1;
 }
+.contactTwo h3 {
+  margin-left: 9%;
+  margin-top: 4%;
+}
+.contactA {
+  text-decoration: none;
+}
+.arrow4 {
+  position: absolute;
+  animation: none;
+  margin-left: 16%;
+  margin-top: 41.8%;
+  font-size: 25px;
+  animation: slide 1s infinite;
+}
+@keyframes slide {
+  0% {
+      transform: translateX(20px);
+  }
+}
 
 /* Works css */
 .work_page h1 {
@@ -594,7 +618,7 @@ margin-top: 10%;
 .work_page p {
   color: #a8b2d1;
   margin-left: 10%;
-  margin-top: -1%;
+  margin-top: 2%;
 }
 .work_page h2 {
   color: #a8b2d1;
@@ -627,6 +651,25 @@ margin-top: 10%;
 .work2-bg:hover {
   opacity: 0;
 }
+.workA {
+  text-decoration: none;
+}
+.wor {
+  padding-bottom: 3%;
+}
+.arrow3 {
+  position: absolute;
+  animation: none;
+  margin-left: 22%;
+  margin-top: 109.8%;
+  font-size: 25px;
+  animation: slide 1s infinite;
+}
+@keyframes slide {
+  0% {
+      transform: translateX(20px);
+  }
+}
 
 /* Resume */
 .resume .resumeImg {
@@ -655,9 +698,79 @@ margin-top: 10%;
   color: #dde3f5;
   text-decoration: none;
 }
+.conA {
+  text-decoration: none;
+}
+.arrow2 {
+  position: absolute;
+  animation: none;
+  margin-left: 32%;
+  margin-top: 115%;
+  font-size: 25px;
+  animation: slide 1s infinite;
+}
+@keyframes slide {
+  0% {
+      transform: translateX(20px);
+  }
+}
 
 
 
 
-
-
+/* LOADING */
+.loading {
+  width: fit-content;
+  height: 100vh;
+  margin-left: 40%;
+  overflow: hidden;
+}
+.loading span {
+  background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 2px;
+  font-size: 50px;
+  transform: translateY(70px);
+  animation: moveup 3s linear infinite;
+  margin-top: 100%;
+}
+@keyframes moveup {
+  0% {
+    transform: translateY(70px);
+  }
+  20% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.loading span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.loading span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.loading span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.loading span:nth-child(6) {
+  animation-delay: 1s;
+}
+.loading span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.loading span:nth-child(8) {
+  animation-delay: 1.4s;
+}
+.loading span:nth-child(9) {
+  animation-delay: 1.6s;
+}
+.loading span:nth-child(10) {
+  animation-delay: 1.8s;
+}

@@ -1,7 +1,9 @@
-import React from 'react';
-import AnimCursor from './animated-cursor';
-import Navbar from './Navbar';
-import Svg from './svg';
+import React from 'react'
+import AnimCursor from './animated-cursor'
+import Navbar from './Navbar'
+import Svg from './svg'
+import { FaLongArrowAltRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 function ContactTwo() {
   return (
@@ -20,6 +22,7 @@ function ContactTwo() {
         <a href='https://codepen.io/Jephthahndukwe'>Codepen</a> / 
         <br/> <a href='https://twitter.com/CoachJephthah'>Twitter</a></p>
         </div>
+      <Link to='/' className='contactA'><h3>Go Back Home <FaLongArrowAltRight className='arrow4' /></h3></Link> 
     </div>
     </>
   )

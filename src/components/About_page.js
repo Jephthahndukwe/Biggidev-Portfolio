@@ -1,15 +1,15 @@
 import React from 'react'
-import './About.css';
-import { Link } from 'react-router-dom';
-import { FaRegCircle } from 'react-icons/fa';
-import { FaCalendarAlt } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { FaDribbble } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import './About.css'
+import { Link } from 'react-router-dom'
+import { FaRegCircle } from 'react-icons/fa'
+import { FaCalendarAlt } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { FaDribbble } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaLongArrowAltRight } from 'react-icons/fa'
 
 function About_page() {
   return (

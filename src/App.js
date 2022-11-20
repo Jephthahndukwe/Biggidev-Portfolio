@@ -4,14 +4,39 @@ import Parent from './components/Parent';
 import ReadParent from './components/ReadParent';
 import Work2 from './components/work2';
 import ContactTwo from './components/ContactTwo';
-import DarkMode from './components/DarkMode';
 import Resume from './components/Resume';
-
+import { useEffect, useState } from 'react'
+import AnimCursor from './components/animated-cursor';
 
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false)
+    }, 10000)
+  }, [])
+
   return (
-    <div className="App">
+      <div>
+  
+     {loading ? (
+  <div className='loading'>
+      <span>L</span>
+      <span>O</span>
+      <span>A</span>
+      <span>D</span>
+      <span>I</span>
+      <span>N</span>
+      <span>G</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+      <AnimCursor/>
+  </div> 
+      ) : (
   <Routes>
     <Route path='/' element={<Parent />} />
     <Route path='About_section' element={<About_section/>} />
@@ -20,7 +45,7 @@ function App() {
     <Route path='/ContactTwo' element={<ContactTwo/>} />
     <Route path='/resume' element={<Resume/>} />
   </Routes>
-  {/* <DarkMode/> */}
+   )} 
     </div>
   );
 }
