@@ -54,7 +54,7 @@ nav a {
 .circle {
     position: absolute;
     margin-left: 8%;
-    margin-top: 31%;
+    margin-top: 20%;
 }
 .git2 {
     animation: none;
@@ -66,12 +66,12 @@ nav a {
 .circle2 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 45.8%;
+    margin-top: 35%;
 }
 .circle3 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 59%;
+    margin-top: 48%;
 }
 
 .about2-hr {
@@ -152,41 +152,41 @@ nav a {
 .circle4 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 85%;
+    margin-top: 74%;
 }
 .circle5 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 98%;
+    margin-top: 87%;
 }
 .circle6 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 109.3%;
+    margin-top: 98.4%;
 }
 .circle7 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 122.3%;
+    margin-top: 111.5%;
 }
 .circle8 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 131.7%;
+    margin-top: 121%;
 }
 
 .calender {
     animation: none;
     position: absolute;
     margin-left: 76.2%;
-    margin-top: 85.5%;
+    margin-top: 74.6%;
     font-size: 14px;
 }
 .calender2 {
     animation: none;
     position: absolute;
     margin-left: 79.7%;
-    margin-top: 98.4%;
+    margin-top: 87.6%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -194,7 +194,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 80%;
-    margin-top: 109.5%;
+    margin-top: 98.6%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -202,7 +202,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 79%;
-    margin-top: 122.5%;
+    margin-top: 111.8%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -210,7 +210,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 79%;
-    margin-top: 132.3%;
+    margin-top: 121.3%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -280,7 +280,7 @@ nav a {
     position: absolute;
     animation: none;
     margin-left: 25.5%;
-    margin-top: 144%;
+    margin-top: 133.1%;
     font-size: 25px;
     animation: slide 1s linear infinite;
 }

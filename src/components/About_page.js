@@ -10,9 +10,14 @@ import { FaGithub } from 'react-icons/fa'
 import { FaDribbble } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaLongArrowAltRight } from 'react-icons/fa'
+import { motion as m } from 'framer-motion'
 
 function About_page() {
   return (
+    <m.div
+    initial={{ y: "100%" }}
+    animate={{ y: "0%" }}
+    transition={{ duration: 1, ease: "easeOut" }}>
     <body>
         <div className='about_section'>
             <h1>About Me.</h1>
@@ -81,16 +86,17 @@ function About_page() {
             <div className='continue'>
                 <Link to='/Work2'><h4>Lets Continue to my work <FaLongArrowAltRight className='arrow' /></h4></Link>
                 <div className='icons'>
-                    <FaTwitter className='icon twitter'/>
-                    <FaFacebook className='icon facebook'/>
-                    <FaLinkedin className='icon linkedin'/>
-                    <FaGithub className='icon githubs'/>
-                    <FaDribbble className='icon dribbble'/>
-                    <FaInstagram className='icon instagram'/>                   
+                    <a href='https://twitter.com/CoachJephthah' target='_blank'><FaTwitter className='icon twitter'/></a>
+                    <a href='https://web.facebook.com/chika.ndukwe.39904/'><FaFacebook className='icon facebook'/></a>
+                    <a href='https://www.linkedin.com/in/jephthah-ndukwe'><FaLinkedin className='icon linkedin'/></a>
+                    <a href='https://github.com/Jephthahndukwe'><FaGithub className='icon githubs'/></a>
+                    <a href='https://dribbble.com/jephthahndukwe' target='_blank'><FaDribbble className='icon dribbble'/></a>
+                    <a href='https://www.instagram.com/jephthah_ndukwe'><FaInstagram className='icon instagram'/></a>                 
                 </div>
             </div>
         </div>
     </body>
+    </m.div>
   )
 }
 

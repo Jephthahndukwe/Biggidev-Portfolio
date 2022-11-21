@@ -7,7 +7,7 @@ import ContactTwo from './components/ContactTwo';
 import Resume from './components/Resume';
 import { useEffect, useState } from 'react'
 import AnimCursor from './components/animated-cursor';
-
+import { AnimatePresence } from 'framer-motion'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -16,12 +16,12 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
-    }, 10000)
+    }, 8000)
   }, [])
 
   return (
       <div>
-  
+  <AnimatePresence initial={false} mode={"wait"}>
      {loading ? (
   <div className='loading'>
       <span>L</span>
@@ -37,7 +37,7 @@ function App() {
       <AnimCursor/>
   </div> 
       ) : (
-  <Routes>
+  <Routes key={Router.pathname}>
     <Route path='/' element={<Parent />} />
     <Route path='About_section' element={<About_section/>} />
     <Route path='/Reads' element={<ReadParent/>} />
@@ -46,6 +46,8 @@ function App() {
     <Route path='/resume' element={<Resume/>} />
   </Routes>
    )} 
+   </AnimatePresence>
+   <AnimCursor/>
     </div>
   );
 }

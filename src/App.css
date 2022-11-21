@@ -13,7 +13,7 @@ body {
 svg {
   width: 110px;
   position: fixed;
-  top: 2%;
+  top: 0%;
   left: 1%;
   animation: rotation 4.5s infinite linear;
   pointer-events: none;
@@ -68,7 +68,7 @@ text {
   color: #a8b2d1;
 }
 .home-list {
-  position: fixed;
+  position: fixed !important;
   margin-top: 15.8%;
 }
 .github {
@@ -399,6 +399,7 @@ margin-top: 10%;
 .work-text3:hover .work-bg2 {
   opacity: 0;
 }
+
 .work-text2 .work-para2 {
   background-color: #022154;
   font-size: 13.7px;
@@ -598,7 +599,7 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 16%;
-  margin-top: 41.8%;
+  margin-top: 32%;
   font-size: 25px;
   animation: slide 1s infinite;
 }
@@ -642,7 +643,7 @@ margin-top: 10%;
 }
 .work2-bg {
   background-color: rgba(0, 0, 0, 0.507);
-  height: 38.7%;
+  height: 17.6%;
   width: 38.1%;
   position: absolute;
   border-radius: 15px;
@@ -661,7 +662,7 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 22%;
-  margin-top: 109.8%;
+  margin-top: 97.7%;
   font-size: 25px;
   animation: slide 1s infinite;
 }
@@ -682,7 +683,7 @@ margin-top: 10%;
 .resume-bg {
   background-color: rgba(0, 0, 0, 0.611);
   width: 60%;
-  height: 183%;
+  height: 81.3%;
   position: absolute;
   margin-top: -85%;
   margin-left: 10%;
@@ -705,7 +706,7 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 32%;
-  margin-top: 115%;
+  margin-top: 102.5%;
   font-size: 25px;
   animation: slide 1s infinite;
 }

@@ -8,19 +8,24 @@ import News from './scrollText'
 import Contact from './contact'
 import Footer from './footer'
 import Home from './front-page'
+import { motion as m } from 'framer-motion'
 
 function Parent() {
   return (
-    <div>
+    <m.div
+    initial={{ y: "100%" }}
+    animate={{ y: "0%" }}
+    exit={{ opacity: 1 }}
+    transition={{ duration: 1, ease: "easeOut" }}>
         <Home />
-        <AnimCursor />
+        {/* <AnimCursor /> */}
         <Svg />
         <About />
         <Work />
         <News />
         <Contact />
         <Footer />
-    </div>
+    </m.div>
   )
 }
 

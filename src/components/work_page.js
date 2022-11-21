@@ -6,9 +6,14 @@ import EduLearn from '../img/EduLearn.png'
 import Kezzthechef from '../img/Kezzthechef.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
+import { motion as m } from 'framer-motion'
 
 const Work_page =() => {
   return (
+    <m.div 
+    initial={{ y: "100%" }}
+    animate={{ y: "0%" }}
+    transition={{ duration: 1, ease: "easeOut" }}>
     <div className='work_page'>
         <h1>My Works</h1>
         <p>Some of my projects</p>
@@ -37,6 +42,7 @@ const Work_page =() => {
         </div>
        <Link to='/Resume' className='workA'><h3 className='wor'>Lets Go To My Resume <FaLongArrowAltRight className='arrow3' /></h3></Link>
     </div>
+    </m.div>
   )
 }
 
