@@ -11,7 +11,7 @@ const Contact = () => {
         <body>
             <div className="contact-text" id="Contact">
                 <h1>Get In Touch</h1>
-                <p>Although I'm not currently looking for any new opportunities, my inbox is <br></br> always open. Whether you have a question or just want to say hi, I'll try my <br></br> best to get back to you!</p>
+                <p>Although I'm not currently looking for any new opportunities, my inbox is <br className="res-br"></br> always open. Whether you have a question or just want to say hi, I'll try my <br className="res-br"></br> best to get back to you!</p>
             <div className="contact-list">
               <a href="https://github.com/Jephthahndukwe" target="_blank"><FaGithub className="icon Git"/></a>
               <a href="https://twitter.com/CoachJephthah" target="_blank"><FaTwitter className="icon Twitter" /></a>

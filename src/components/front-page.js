@@ -4,8 +4,8 @@ import {FaTwitter} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaCodepen} from 'react-icons/fa';
-// import {FaPlay} from 'react-icons/fa';
-// import {FaPause} from 'react-icons/fa';
+import {FaPlay} from 'react-icons/fa';
+import {FaPause} from 'react-icons/fa';
 import Audio from '../audio/Jephthah-Ndukwe.mp3';
 import React from "react";
 import { Link } from 'react-router-dom';
@@ -24,12 +24,12 @@ const Home = () => {
                 </div>
                 <div className='responsive'>
                 <div className='home-text2'>
-                    <h2>Jephthah Ndukwe</h2>
-                    <p>Frontend developer specialized in building web <br></br> application </p>
-                    <p>Currently working as a junior developer <br></br> at <a href='https://andela.com/' target="_blank">Andela Company</a></p>
+                    <h2>Jephthah</h2>
+                    <p>Frontend developer specialized in building web <br className='res-br'></br> application </p>
+                    <p>Currently working as a junior developer <br className='res-br'></br> at <a href='https://andela.com/' target="_blank">Andela Company</a></p>
                 </div>
                 <div className='bg-music'>
-                       <audio src= {Audio} autoPlay="true" loop="true" type='audio/mpeg' id='myMusic'>second Audio</audio>                      
+                       <audio src= {Audio} autoPlay="true" loop="true" type='audio/mpeg' id='myMusic' />                   
                     {/* <div className='btn'>
                         <FaPlay className='Play icon' />
                         <FaPause className='Pause icon' />
@@ -38,7 +38,7 @@ const Home = () => {
                 <div className='home-text'>
                 <h1 className='nav-link'><Link to='/About_section'>About</Link></h1>
                 <h1 className='nav-link'><Link to='/work2'>Work</Link></h1>
-                <h1 className='nav-link'><Link to='/contactTwo'>Contact</Link></h1>
+                <h1 className='nav-link nav-con'><Link to='/contactTwo'>Contact</Link></h1>
                 </div>
                 </div>
                 <div className='home-mail'>

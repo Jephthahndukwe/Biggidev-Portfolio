@@ -10,16 +10,18 @@ import { motion as m } from 'framer-motion'
 const Resume = () => {
   return (
     <>
-<Navbar/>
+{/* <Navbar/> */}
 <Svg/>
-<AnimCursor/>
+{/* <AnimCursor/> */}
 <m.div
  initial={{ y: "100%" }}
  animate={{ y: "0%" }}
- transition={{ duration: 1, ease: "easeOut" }}>
+ exit={{ opacity: 1 }}
+ transition={{ duration: 1, ease: "easeOut" }} 
+ className='resumePage'>
     <div className='resume'>
       <h1>Resumé.</h1>
-      <h3>Reach out to me via my <Link to='/ContactTwo'> contact page </Link>.<a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link'>view</a> or <a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link'>download</a> the resume</h3>
+      <h3>Reach out to me via my <Link to='/ContactTwo'> contact page </Link>.<a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link' target='_blank'>view</a> or <a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link' target='_blank'>download</a> the resume</h3>
       <img src={resume} className='resumeImg' />
       <div className='resume-bg'></div>
     </div><br></br>

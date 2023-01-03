@@ -12,7 +12,7 @@ body {
 
 svg {
   width: 110px;
-  position: fixed;
+  position: absolute;
   top: 0%;
   left: 1%;
   animation: rotation 4.5s infinite linear;
@@ -68,7 +68,7 @@ text {
   color: #a8b2d1;
 }
 .home-list {
-  position: fixed !important;
+  position: fixed;
   margin-top: 15.8%;
 }
 .github {
@@ -109,7 +109,6 @@ text {
 }
 .home-mail {
   position: fixed;
- /* margin-left: 10%; */
  margin-top: -4%;
 }
 .home-mail p {
@@ -159,7 +158,6 @@ text {
   opacity: 3;
   transition: all linear .2s;
   cursor: pointer;
-  /* margin-top: 15%; */
 }
 .Pause {
   background-color: transparent;
@@ -171,7 +169,6 @@ text {
   opacity: 3;
   transition: all linear .2s;
   cursor: pointer;
-  /* margin-top: 15%; */
   display: none;
 }
 .btn {
@@ -204,7 +201,6 @@ text {
   font-weight: 300;
   line-height: 23.92px;
   font-family: 'Josefin Sans', sans-serif;
-  /* font-family: 'Damion', cursive; */
 }
 .about-text {
   margin-top: -30%;
@@ -278,7 +274,6 @@ margin-top: 10%;
 .work-text p {
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
-  /* font-family: 'Damion', cursive; */
   color: #ccd6f6;
   text-align: center;
   padding-top: -3%;
@@ -286,7 +281,7 @@ margin-top: 10%;
 .work-bg {
   background-color: #3263ac51;
   width: 42.2%;
-  height: 65%;
+  height: 7.4%;
   position: absolute;
   opacity: 1;
 }
@@ -344,9 +339,6 @@ margin-top: 10%;
   margin-top: 3%;
   margin-left: 1%;
 }
-/* .link2 {
-  margin-top: 8%;
-} */
 .git {
   animation: none;
   padding-left: 27rem;
@@ -360,6 +352,9 @@ margin-top: 10%;
   font-size: 22px;
   margin-top: 30%;
   margin-left: -4rem;
+}
+.big-br {
+  display: none;
 }
 
 
@@ -377,14 +372,13 @@ margin-top: 10%;
 .work-text3 p {
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
-  /* font-family: 'Damion', cursive; */
   color: #ccd6f6;
   text-align: center;
   padding-top: -3%;
 }
 
 .work-text2 h2 {
-    margin-left: 11rem;
+    margin-left: 8rem;
     font-size: 25px;
     color: #ccd6f6;
     margin-top: -3%;
@@ -392,7 +386,7 @@ margin-top: 10%;
 .work-bg2 {
   background-color: #3263ac51;
   width: 42.3%;
-  height: 65%;
+  height: 7.4%;
   position: absolute;
   opacity: 1;
 }
@@ -423,10 +417,11 @@ margin-top: 10%;
   margin-left: -5%;
   background-color: #2e3851;
 }
-.work-img2 .foundationImg {
+.work-img2 .chatmeImg {
   width: 90%;
-  padding-top: 10.2%;
+  height: 254px;
   padding-left: 5%;
+  object-fit: cover;
 }
 .work-img2 .tradingImg {
   width: 90%;
@@ -438,13 +433,22 @@ margin-top: 10%;
 /* NEWS CSS */
 .News {
   margin-top: 15%;
+  overflow-x: hidden;
 }
 .News ul {
   display: flex;
   list-style: none;
   margin: 0;
   transform: translateX(-1239px);
-  animation: scroll 8s infinite linear;
+  animation: scroll 10s infinite linear;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-1239px) !important;
+  }
 }
 .News .scroll-hr {
   width:80%;
@@ -453,21 +457,14 @@ margin-top: 10%;
 }
 .News ul li {
  white-space: nowrap;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bolder;
   padding: 10px 24px;
   color: #ccd6f6;
   margin-top: 1%;
   font-family: 'Dancing Script', cursive;
 }
-@keyframes scroll {
-  from {
-    transform: translateX(-17%);
-  }
-  to {
-    transform: translateX(-1239px) !important;
-  }
-}
+
 .News h2 {
   color: #a8b2d1;
   margin-left: 73%;
@@ -490,6 +487,7 @@ margin-top: 10%;
    font-weight: 700;
 }
 .contact-text p {
+  align-items: baseline;
   text-align: center;
   font-size: 16px;
   color: #a8b2d1;
@@ -574,7 +572,6 @@ margin-top: 10%;
   color: #ccd6f6;
   font-family: 'dominos', cursive;
    font-size: 150px;
-   margin-top: -1%;
    margin-left: 8%;
 }
 .contactTwo .Contact-text {
@@ -601,7 +598,7 @@ margin-top: 10%;
   margin-left: 16%;
   margin-top: 32%;
   font-size: 25px;
-  animation: slide 1s infinite;
+  animation: slide .8s infinite;
 }
 @keyframes slide {
   0% {
@@ -614,6 +611,7 @@ margin-top: 10%;
   color: #ccd6f6;
   font-size: 50px;
   margin-left: 10%;
+  margin-top: 13%;
   font-family: 'dominos', cursive;
 }
 .work_page p {
@@ -624,7 +622,6 @@ margin-top: 10%;
 .work_page h2 {
   color: #a8b2d1;
   margin-left: 75%;
-  /* font-size: 28px; */
   margin-top: -3%;
 }
 .workProject {
@@ -662,9 +659,9 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 22%;
-  margin-top: 97.7%;
+  margin-top: 97.5%;
   font-size: 25px;
-  animation: slide 1s infinite;
+  animation: slide .8s infinite;
 }
 @keyframes slide {
   0% {
@@ -673,6 +670,9 @@ margin-top: 10%;
 }
 
 /* Resume */
+.resume {
+  margin-top: 13%;
+}
 .resume .resumeImg {
   width: 60%;
   height: 30%;
@@ -687,6 +687,10 @@ margin-top: 10%;
   position: absolute;
   margin-top: -85%;
   margin-left: 10%;
+  opacity: 1;
+}
+.resume-bg:hover {
+  opacity: 0;
 }
 .resume h1, h3 {
    color: #a8b2d1;
@@ -708,7 +712,7 @@ margin-top: 10%;
   margin-left: 32%;
   margin-top: 102.5%;
   font-size: 25px;
-  animation: slide 1s infinite;
+  animation: slide .8s infinite;
 }
 @keyframes slide {
   0% {
@@ -722,9 +726,8 @@ margin-top: 10%;
 /* LOADING */
 .loading {
   width: fit-content;
-  height: 100vh;
   margin-left: 40%;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .loading span {
   background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));

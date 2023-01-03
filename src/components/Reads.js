@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Reads.css'
+import Svg from './svg'
 import Read1 from '../img/Read1.png'
 import Read2 from '../img/Read2.jpg'
 import Read3 from '../img/Read3.png'
@@ -21,8 +22,10 @@ import Read18 from '../img/Read18.png'
 
 function Reads() {
   return (   
+    <>
     <div className='read'>
-      <h1>Reads.</h1>
+      <div className='reed'>
+      <h1 className='wow'>Reads.</h1>
        <div className='read-grid'>
         <div className='read-box box1'>
          <img src={Read1} className='Read1' />
@@ -79,8 +82,9 @@ function Reads() {
          <img src={Read18} className='Read18' />
         </div>    
       </div>
-      
+      </div>
     </div>
+    </>
   )
 }
 

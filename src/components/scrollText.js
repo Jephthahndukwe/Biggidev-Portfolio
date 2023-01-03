@@ -10,7 +10,12 @@ const News = () => {
                 <ul>
                     <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
                     <li >JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
-                    <li className="scroll-p">JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
+                    <li>JEPHTHAH - NDUKWE - FRONT - END - PORTFOLIO</li>
                 </ul>
                 <hr className="scroll-hr"></hr>
             </div>

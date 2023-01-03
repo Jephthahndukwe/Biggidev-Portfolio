@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { useRef } from 'react'
+import '../index'
 
-function Navbar() {
+
+class Navbar extends Component {
+state = {  clicked : false };
+
+handleClick = () => {
+   this.setState({clicked: !this.state.clicked})
+}
+
+  render () {
   return (
     <div className='navbar'>
+    <header>
       <nav>
-        <ul>
-        <li>
+        <ul id='navbar'  className={this.state.clicked ? "#navbar active" : "#navbar"}>
+            <li>
                 <Link to='/About_section'>About</Link>
             </li>
             <li>
@@ -20,8 +32,13 @@ function Navbar() {
             </li>
         </ul>
       </nav>
+      <div id='mobile' onClick={this.handleClick}>
+          <i id='bar' className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+        </div>
+      </header>
     </div>
   )
+  }
 }
 
 export default Navbar

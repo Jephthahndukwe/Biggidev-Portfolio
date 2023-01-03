@@ -8,9 +8,9 @@ import Work_page from './work_page';
 const Work2 = () => {
   return (
     <div>
-      <AnimCursor />
+      {/* <AnimCursor /> */}
       <Svg />
-     <Navbar />
+     {/* <Navbar /> */}
     <Work_page/>
     </div>
   )

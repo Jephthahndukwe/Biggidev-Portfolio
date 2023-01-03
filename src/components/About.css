@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,200;0,300;0,600;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* * {
-    padding: 0;
-    margin: 0;
-} */
-
 .navbar nav ul li {
     list-style: none;
     display: inline-block;
@@ -19,11 +14,47 @@ nav a {
     color: #ccd6f6;
     font-family: 'poppins', sans-serif;
 }
+
+#mobile {
+    display: none;
+}
+
+header .nav_btn {
+    
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.nav_close {
+    animation: none;
+    position: absolute;
+    margin-left: 50%;
+    color: #ccd6f6;
+    font-size: 22px;
+}
+.nav_bars {
+    animation: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 10%;
+    color: #ccd6f6;
+    font-size: 35px;
+    visibility: hidden;
+    opacity: 0;
+}
+.about-section {
+    overflow-x: hidden;
+    margin-top: 8rem;
+}
 .container span {
     color: red;
     font-size: 30px;
     animation: none;
-    /* position: fixed; */
     margin-left: 50%;
 }
 .about_section h1 {
@@ -162,17 +193,17 @@ nav a {
 .circle6 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 98.4%;
+    margin-top: 98.3%;
 }
 .circle7 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 111.5%;
+    margin-top: 111.3%;
 }
 .circle8 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 121%;
+    margin-top: 120.9%;
 }
 
 .calender {
@@ -186,7 +217,7 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 79.7%;
-    margin-top: 87.6%;
+    margin-top: 87.5%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -194,14 +225,14 @@ nav a {
     animation: none;
     position: absolute;
     margin-left: 80%;
-    margin-top: 98.6%;
+    margin-top: 98.8%;
     font-size: 14px;
     color: #ccd6f6;
 }
 .calender4 {
     animation: none;
     position: absolute;
-    margin-left: 79%;
+    margin-left: 79.5%;
     margin-top: 111.8%;
     font-size: 14px;
     color: #ccd6f6;
@@ -209,8 +240,8 @@ nav a {
 .calender5 {
     animation: none;
     position: absolute;
-    margin-left: 79%;
-    margin-top: 121.3%;
+    margin-left: 79.3%;
+    margin-top: 121.4%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -220,6 +251,7 @@ nav a {
     font-family: 'poppins', sans-serif;
     margin-left: 16%;
 }
+
 .about4-hr {
     width: 0;
     height: 153px;
@@ -272,7 +304,6 @@ nav a {
     text-decoration: none;
 }
 .icon {
-    /* position: absolute; */
     animation: none;
     margin-top: 30%;
 }
@@ -280,7 +311,7 @@ nav a {
     position: absolute;
     animation: none;
     margin-left: 25.5%;
-    margin-top: 133.1%;
+    margin-top: 133%;
     font-size: 25px;
     animation: slide 1s linear infinite;
 }
@@ -289,8 +320,6 @@ nav a {
         transform: translateX(20px);
     }
 }
-/* .continue:hover .arrow {
-} */
 .icons {
     position: absolute;
     margin-top: 2.5%;

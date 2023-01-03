@@ -18,7 +18,6 @@ function Parent() {
     exit={{ opacity: 1 }}
     transition={{ duration: 1, ease: "easeOut" }}>
         <Home />
-        {/* <AnimCursor /> */}
         <Svg />
         <About />
         <Work />

@@ -8,9 +8,9 @@ import '../components/About.css'
 const About_section = () => {
   return (
     <div>
-      <AnimCursor />
+      {/* <AnimCursor /> */}
       <Svg />
-     <Navbar />
+        {/* <Navbar /> */}
      <About_page />
     </div>
   )
