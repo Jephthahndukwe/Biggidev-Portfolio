@@ -105,7 +105,7 @@
       }
       .work-bg {
         background-color: #0b1e3a65 !important;
-        width: 91.8% !important;
+        width: 97% !important;
         height: 5.5% !important;
         position: absolute;
         opacity: 1;
@@ -126,27 +126,35 @@
       background-color: #022154d8 !important;
       font-size: 13.7px;
       line-height: 25px;
-      width: 20.4rem !important;
-      height: 26rem !important;
-      margin-left: -12.2rem !important;
+      width: 21.7rem !important;
+      height: 26.3rem !important;
+      margin-left: -13rem !important;
       margin-top: -26.3rem !important;
       position: relative;
       text-align: right;
       color: #a8b2d1;
       font-family: 'poppins', sans-serif;
     }
+    .work-text2 .adanianImg {
+      height: 20px !important;
+    }
+    .work-text2 .para {
+      height: 27.2rem !important;
+      margin-left: -13rem !important;
+      margin-top: -27.5rem !important;
+    }
     .work-para h4 {
       display: block;
-      margin-top: 4.7rem !important;
+      margin-top: 3rem !important;
       margin-left: 1.5rem !important;
     }
     .work-para h3 {
       display: block;
-      margin-top: 7rem !important;
+      margin-top: 5rem !important;
       margin-left: 1.5rem !important;
     }
     .work-para p {
-      padding-top: 10rem !important;
+      padding-top: 7rem !important;
       text-align: start;
       padding-left: 3% !important;
     }
@@ -157,11 +165,14 @@
     .git {
       font-size: 30px !important;
     }
+    .githubs {
+      margin-left: 0%;
+    }
     .external {
       animation: none;
       color: #3263ac;
       font-size: 22px;
-      margin-top: 24rem !important;
+      margin-top: 21.3rem !important;
       margin-left: 3rem !important;
       position: absolute !important;
       font-size: 28px !important;
@@ -174,7 +185,7 @@
     .work-text3 {
       margin-left: -5% !important;
       width: 110% !important;
-      height: 421px !important;
+      height: 440px !important;
       margin-top: -55%;
       margin-left: -5%;
       background-color: #2e3851;
@@ -193,6 +204,7 @@
       opacity: 1;
       margin-top: 0.2%;
     }
+    
     .work-text2 .work-para2 {
       background-color: #022154d8 !important;
       font-size: 13.7px;
@@ -206,6 +218,7 @@
       color: #a8b2d1;
       font-family: 'poppins', sans-serif;
     }
+
     .work-para2 h4 {
       display: block;
       margin-top: 2.5rem !important;
@@ -244,7 +257,7 @@
         margin-top: 10% !important;
       }
       .News h2 {
-        margin-left: 53% !important;
+        margin-left: 40% !important;
         font-size: 17px !important;
       }
 
@@ -296,9 +309,10 @@
 
 
      /* ABOUT_PAGE */
-      .about-sections {
+      .about-section {
         margin-top: 10rem;
-        overflow: hidden;
+        margin-bottom: 2rem;
+        /* overflow: hidden; */
       }
       .about2 p {
         font-size: 14px;
@@ -314,10 +328,13 @@
         margin-top: 3rem !important;
       }
       .about2 .product {
-        margin-left: -20.3rem;
+        margin-left: -21.5rem;
       }
       .about2 .product2 {
-        margin-left: -19.3rem;
+        margin-left: -20.5rem;
+      }
+      .about2 .product9 {
+        margin-left: -25rem;
       }
       .about_section h1 {
         font-size: 50px;
@@ -329,45 +346,45 @@
     }
     .circle2 {
       margin-left: -7%;
-      margin-top: 32rem;
+      margin-top: 31.2rem;
     }
     .circle3 {
         margin-left: -7%;
-        margin-top: 48.5rem;
+        margin-top: 47rem;
     }
     .circle4 {
       margin-left: -7%;
-      margin-top: 75.8rem;
+      margin-top: 73rem;
     }
     .circle5 {
         margin-left: -7%;
-        margin-top: 92.2rem;
+        margin-top: 89.2rem;
     }
     .circle6 {
         margin-left: -7%;
-        margin-top: 106rem;
+        margin-top: 103.5rem;
     }
     .circle7 {
         margin-left: -7%;
-        margin-top: 123.7rem;
+        margin-top: 121rem;
     }
     .circle8 {
         margin-left: -7%;
-        margin-top: 133.7rem;
+        margin-top: 131.7rem;
     }
     .about2-hr {
-      height: 14.7%;
-      margin-left: 9%;
-      margin-top: -21.3rem;
+      height: 14%;
+      margin-left: 8%;
+      margin-top: -20rem;
   }
   .about3-hr {
-      height: 10%;
-      margin-left: 9%;
-      margin-top: -14.6rem;
+      height: 9.8%;
+      margin-left: 8%;
+      margin-top: -13.6rem;
   }
   .hr2 {
     height: 12.5%;
-    margin-top: -17.4rem;
+    margin-top: -16.5rem;
   }
   .reads {
     margin-top: 5rem;
@@ -390,13 +407,13 @@
   .product3, .product4, .product5 {
     position: absolute;
     margin-top: 7% !important;
-    margin-left: -1rem !important;
+    margin-left: -6.5rem !important;
   }
   .product3 {
-    margin-left: -10.5rem !important;
+    margin-left: -11rem !important;
   }
   .product5 {
-    margin-left: -12rem !important;
+    margin-left: -12.7rem !important;
   }
   .read-text span {
     font-size: 12px;
@@ -407,58 +424,89 @@
 }
   .about4-hr {
     height: 10.4%;
-    margin-left: 9%;
-    margin-top: -15.2rem;
+    margin-left: 8.5%;
+    margin-top: -14.8rem;
 }
 .about5-hr {
-    height: 8.7%;
-    margin-left: 9%;
-    margin-top: -12.7rem;
+    height: 9%;
+    margin-left: 8.5%;
+    margin-top: -12.9rem;
 }
 .about6-hr {
-    height: 11.5%;
-    margin-left: 9%;
-    margin-top: -16.7rem;
+    height: 11.3%;
+    margin-left: 8.5%;
+    margin-top: -16rem;
 }
 .about7-hr {
-    height: 6%;
-    margin-left: 9%;
-    margin-top: -8.5rem;
+    height: 6.5%;
+    margin-left: 8.5%;
+    margin-top: -9.3rem;
 }
 .about8-hr {
     height: 3.4%;
-    margin-left: 9%;
-    margin-top: -4.5rem;
+    margin-left: 8.5%;
+    margin-top: -4.9rem;
 }
 .calender {
   margin-left: 2%;
-  margin-top: 77.2rem;
+  margin-top: 74.7rem;
 }
 .calender2 {
   margin-left: 2%;
-  margin-top: 93.6rem;
+  margin-top: 90.7rem;
 }
 .calender3 {
   margin-left: -4.7rem;
-  margin-top: 0rem;
+  margin-top: 0.1rem;
 }
 .calender4 {
   margin-left: -4.4rem;
-  margin-top: 0rem;
+  margin-top: 0.1rem;
 }
 .calender5 {
   margin-left: -4.5rem;
-  margin-top: 0rem;
+  margin-top: 0.1rem;
 }
 .continue h4 {
   margin-top: 5rem;
+  margin-left: 8%;
 }
 .arrow {
   margin-left: 54%;
-  margin-top: 143.2rem;
+  margin-top: 141.8rem;
   font-size: 25px;
   animation: slide 1s linear infinite;
 } 
+
+.icons {
+  margin-top: 2.5%;
+  margin-left: -5%;
+}
+.icons p{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.facebook {
+  margin-left: 22%;
+  font-size: 20px;
+}
+.linkedin {
+  margin-left: -17%;
+  font-size: 20px;
+}
+.githubs {
+  margin-left: -5%;
+  font-size: 20px;
+}
+.dribbble {
+  margin-left: 45%;
+  font-size: 20px;
+}
+.instagram {
+ margin-left: -5%;
+ font-size: 20px;
+}
 
 
      /* NAVBAR*/
@@ -605,15 +653,15 @@
     }
     .resume .resumeImg {
       width: 95% !important;
-      object-fit: contain;
+      object-fit: cover;
       margin-left: 3% !important; 
       margin-top: 3%;
     }
     .resume-bg {
       background-color: rgba(0, 0, 0, 0.307) !important;
       width: 95% !important;
-      height: 68% !important;
-      margin-top: -135.2% !important;
+      height: 65% !important;
+      margin-top: -125% !important;
       margin-left: 3% !important;
     }
     .conA {
@@ -623,7 +671,7 @@
       position: absolute;
       animation: none;
       margin-left: 59% !important;
-      margin-top: 192% !important;
+      margin-top: 185% !important;
       font-size: 25px;
       animation: slide .8s infinite;
     }
@@ -660,7 +708,7 @@
       position: absolute;
       animation: none;
       margin-left: 33% !important;
-      margin-top: 120.3% !important;
+      margin-top: 128.4% !important;
       font-size: 25px;
       animation: slide 1s infinite;
     }

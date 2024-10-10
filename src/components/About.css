@@ -71,12 +71,16 @@ header .nav_btn {
     font-size: 28px;
     color: #ccd6f6;
 }
+
 .about2 p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    line-height: 25px;
     color: #ccd6f6;
-    font-size: 15px;
-    font-family: 'poppins', sans-serif;
+    font-weight: 400;
     margin-left: 15%;
-}
+  }
+
 .about2 a{
     padding-left: 62%;
     font-size: 19px;
@@ -97,29 +101,29 @@ header .nav_btn {
 .circle2 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 35%;
+    margin-top: 35.5%;
 }
 .circle3 {
     position: absolute;
     margin-left: 8%;
-    margin-top: 48%;
+    margin-top: 49.4%;
 }
 
 .about2-hr {
     width: 0;
-    height: 174px;
+    height: 181px;
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 13%;
-    margin-top: -10%;
+    margin-top: -11%;
 }
 .about3-hr {
     width: 0;
-    height: 155px;
+    height: 159px;
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 13%;
-    margin-top: -8.5%;
+    margin-top: -9.2%;
 }
 .git3 {
     animation: none;
@@ -127,11 +131,14 @@ header .nav_btn {
     margin-top: 28.3%;
     font-size: 22px;
 }
-.product {
+.product9 {
     margin-left: 5%;
 }
+.product {
+    margin-left: 10%;
+}
 .product2 {
-    margin-left: 7%;
+    margin-left: 12%;
 }
 
 .reads h3 {
@@ -183,41 +190,41 @@ header .nav_btn {
 .circle4 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 74%;
+    margin-top: 75.5%;
 }
 .circle5 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 87%;
+    margin-top: 89%;
 }
 .circle6 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 98.3%;
+    margin-top: 100.5%;
 }
 .circle7 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 111.3%;
+    margin-top: 114%;
 }
 .circle8 {
     position: absolute;
     margin-left: 9%;
-    margin-top: 120.9%;
+    margin-top: 123.7%;
 }
 
 .calender {
     animation: none;
     position: absolute;
     margin-left: 76.2%;
-    margin-top: 74.6%;
+    margin-top: 76%;
     font-size: 14px;
 }
 .calender2 {
     animation: none;
     position: absolute;
     margin-left: 79.7%;
-    margin-top: 87.5%;
+    margin-top: 89.5%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -225,7 +232,7 @@ header .nav_btn {
     animation: none;
     position: absolute;
     margin-left: 80%;
-    margin-top: 98.8%;
+    margin-top: 101%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -233,7 +240,7 @@ header .nav_btn {
     animation: none;
     position: absolute;
     margin-left: 79.5%;
-    margin-top: 111.8%;
+    margin-top: 114.4%;
     font-size: 14px;
     color: #ccd6f6;
 }
@@ -241,40 +248,42 @@ header .nav_btn {
     animation: none;
     position: absolute;
     margin-left: 79.3%;
-    margin-top: 121.4%;
+    margin-top: 124.1%;
     font-size: 14px;
     color: #ccd6f6;
 }
 .read-text p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    line-height: 25px;
     color: #ccd6f6;
-    font-size: 15px;
-    font-family: 'poppins', sans-serif;
+    font-weight: 400;
     margin-left: 16%;
 }
 
 .about4-hr {
     width: 0;
-    height: 153px;
+    height: 159px;
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 14%;
-    margin-top: -8%;
+    margin-top: -9%;
 }
 .about5-hr {
     width: 0;
-    height: 130px;
+    height: 132px;
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 14%;
-    margin-top: -6.3%;
+    margin-top: -7%;
 }
 .about6-hr {
     width: 0;
-    height: 154px;
+    height: 158px;
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 14%;
-    margin-top: -8%;
+    margin-top: -8.9%;
 }
 .about7-hr {
     width: 0;
@@ -282,7 +291,7 @@ header .nav_btn {
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 14%;
-    margin-top: -4.6%;
+    margin-top: -4.9%;
 }
 .about8-hr {
     width: 0;
@@ -290,7 +299,7 @@ header .nav_btn {
     border: 1px solid #ccd6f61f;
     position: absolute;
     margin-left: 14%;
-    margin-top: -4.6%;
+    margin-top: -4.8%;
 }
 .continue {
     margin-bottom: 10%;
@@ -311,7 +320,7 @@ header .nav_btn {
     position: absolute;
     animation: none;
     margin-left: 25.5%;
-    margin-top: 133%;
+    margin-top: 136%;
     font-size: 25px;
     animation: slide 1s linear infinite;
 }
@@ -329,16 +338,22 @@ header .nav_btn {
 .facebook {
     position: absolute;
     margin-top: 90%;
-    margin-left: 50%;
+    margin-left: 30%;
 }
 .githubs {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 5%;
+}
+.linkedin {
+  margin-left: -10%;
 }
 .dribbble {
     position: absolute;
-    margin-left: 80%;
+    margin-left: 60%;
     margin-top: -10%;
+}
+.instagram {
+    margin-left: 4%;
 }
 .icons p{
     display: flex;

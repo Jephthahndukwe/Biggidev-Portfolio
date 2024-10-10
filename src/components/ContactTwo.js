@@ -27,7 +27,7 @@ function ContactTwo() {
         <p>On the internet: <a href='https://www.linkedin.com/in/jephthah-ndukwe-537b69250/' target="_blank">Linkedin</a> / 
         <a href='https://github.com/Jephthahndukwe' target="_blank">Github</a> / 
         <a href='https://codepen.io/Jephthahndukwe' target="_blank">Codepen</a> / 
-        <br/> <a href='https://wa.link/drn37x' target="_blank">Whatsapp</a></p>
+        <a href='https://wa.link/drn37x' target="_blank">Whatsapp</a></p>
         </div>
       <Link to='/' className='contactA'><h3>Go Back Home <FaLongArrowAltRight className='arrow4' /></h3></Link> 
     </div>

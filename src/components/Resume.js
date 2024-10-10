@@ -21,7 +21,7 @@ const Resume = () => {
  className='resumePage'>
     <div className='resume'>
       <h1>Resumé.</h1>
-      <h3>Reach out to me via my <Link to='/ContactTwo'> contact page </Link>.<a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link' target='_blank'>view</a> or <a href='https://drive.google.com/file/d/1Bu2GYe2BZg0NT_ygAcLiGGmnPTWAyt_a/view?usp=share_link' target='_blank'>download</a> the resume</h3>
+      <h3>Reach out to me via my <Link to='/ContactTwo'> contact page </Link> or <a href='https://drive.google.com/file/d/1ZdBZvb_0JhrW_dh6zmRYyYTfx3_MaKR3/view?usp=drive_link' target='_blank'>download</a> the resume</h3>
       <img src={resume} className='resumeImg' />
       <div className='resume-bg'></div>
     </div><br></br>

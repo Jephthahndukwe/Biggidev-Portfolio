@@ -9,8 +9,8 @@ const About = () => {
             <h1>ABOUT ME.</h1>
             <div className="about-box">
                 <div className="about-text">
-                    <p>My name is Jephthah Ndukwe, I'm  a front-end developer based in Nigeria. <br className="res-br"></br> I have developed many types of front-ends from well know Travel Agency to <br className="res-br"></br> Charity Foundation Platforms.</p>
-                    <p>I'm a Developer Advocate who's always willing to help and give the best solutions <br className="res-br"></br> to my clients with the use of software and  has project experience building easy-to-use,<br className="res-br"></br> responsive, accessible, and user-friendly websites and web applications.</p>
+                    <p>My name is Jephthah Ndukwe, I'm  a front-end developer based in Nigeria. <br className="res-br"></br> I have developed many types of front-ends from well know No Code Website Builder to <br className="res-br"></br> Learning System Platforms.</p>
+                    <p>Results-driven Senior Software Engineer with 6+ years of experience in creating <br className="res-br"></br> high-performance web and mobile applications. Proficient in HTML5, CSS3, <br className="res-br"></br> JavaScript, ReactJS, and React Native. Strong background in Agile/Lean <br className="res-br"></br> development methodologies and a proven track record of delivering exceptional <br className="res-br"></br> user interface and experiences.</p>
                     <p>I'm Passionate about cutting edge, pixel-perfect, beautiful interface and intuitively <br className="res-br"></br> implemented UX.</p>
                 </div>
                 <div className="img"> </div>

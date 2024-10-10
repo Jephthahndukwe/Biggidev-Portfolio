@@ -75,15 +75,20 @@ text {
   margin-top: 10%;
   position: relative;
 }
+.githubs {
+  margin-top: 10%;
+  position: relative;
+}
 .twitter {
   margin-top: -5%;
   position: relative;
 }
 .instagram {
   margin-top: 6%;
+  margin-left: -1%;
   position: relative;
 }
-.linkedin {
+.linkedins {
   margin-top: 3%;
   position: relative;
 }
@@ -202,6 +207,7 @@ text {
   line-height: 23.92px;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 .about-text {
   margin-top: -30%;
   margin-left: 10%;
@@ -322,7 +328,7 @@ margin-top: 10%;
    font-size: 13.7px;
    line-height: 25px;
    width: 150%;
-   height: 130px;
+   height: 150px;
    margin-left: -40%;
    position: relative;
    text-align: right;
@@ -334,9 +340,9 @@ margin-top: 10%;
 }
 .work-link{
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 1%;
 }
 .git {
@@ -374,7 +380,7 @@ margin-top: 10%;
   font-family: 'Josefin Sans', sans-serif;
   color: #ccd6f6;
   text-align: center;
-  padding-top: -3%;
+  /* margin-top: -1%; */
 }
 
 .work-text2 h2 {
@@ -417,15 +423,15 @@ margin-top: 10%;
   margin-left: -5%;
   background-color: #2e3851;
 }
-.work-img2 .chatmeImg {
+.work-img2 .adanianImg {
   width: 90%;
   height: 254px;
   padding-left: 5%;
   object-fit: cover;
 }
-.work-img2 .tradingImg {
+.work-img2 .aoraImg {
   width: 90%;
-  padding-top: 10%;
+  /* padding-top: %; */
   padding-left: 5%;
 }
 
@@ -489,10 +495,11 @@ margin-top: 10%;
 .contact-text p {
   align-items: baseline;
   text-align: center;
-  font-size: 16px;
-  color: #a8b2d1;
-  font-family: 'poppins', sans-serif;
   font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ccd6f6;
 }
 .contact-text .btn {
   margin-left: 45%;
@@ -596,7 +603,7 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 16%;
-  margin-top: 32%;
+  margin-top: 30.3%;
   font-size: 25px;
   animation: slide .8s infinite;
 }
@@ -683,9 +690,9 @@ margin-top: 10%;
 .resume-bg {
   background-color: rgba(0, 0, 0, 0.611);
   width: 60%;
-  height: 81.3%;
+  height: 80.3%;
   position: absolute;
-  margin-top: -85%;
+  margin-top: -79%;
   margin-left: 10%;
   opacity: 1;
 }
@@ -710,7 +717,7 @@ margin-top: 10%;
   position: absolute;
   animation: none;
   margin-left: 32%;
-  margin-top: 102.5%;
+  margin-top: 96.4%;
   font-size: 25px;
   animation: slide .8s infinite;
 }

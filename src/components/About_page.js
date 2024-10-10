@@ -26,9 +26,9 @@ function About_page() {
             <div className='about2'>
                 <h2><FaRegCircle className='circle'/>
                     Engineering
-                    <a href='https://github.com/Jephthahndukwe'>View Github</a>
+                    <Link to='https://github.com/Jephthahndukwe' className='product9'>View Github</Link>
                 </h2>
-                <p>When it comes to business, first impressions matter, and good website design is the key to capitalizing on them. An excellent site is   <br className='res-br'/> not judged solely on its looks, but on its functionality and usability as well. My experience as a programmer allows me to come up <br className='res-br'/> with intelligent solutions to technical challenges, while at the same time designing sleek and visually appealing websites. Aside from <br className='res-br'/> having extensive knowledge of recognized technical standards, I am conversant with modern building practices.</p>
+                <p className='about-p'>When it comes to business, first impressions matter, and good website design is the key to capitalizing on them. An excellent site is   <br className='res-br'/> not judged solely on its looks, but on its functionality and usability as well. My experience as a programmer allows me to come up <br className='res-br'/> with intelligent solutions to technical challenges, while at the same time designing sleek and visually appealing websites. Aside from <br className='res-br'/> having extensive knowledge of recognized technical standards, I am conversant with modern building practices.</p>
                 <hr className='about2-hr'></hr>
                 
                 <h2><FaRegCircle className='circle2'/>
@@ -40,7 +40,7 @@ function About_page() {
 
                 <h2><FaRegCircle className='circle3'/>
                     Design
-                    <Link to='/Reads' className='product product2'>View Design</Link>
+                    <Link to='/Reads' className='product2'>View Design</Link>
                 </h2>
                 <p>Although I am not the typical designer, I do possess excellent visual abilities, and this makes me an excellent presenter, allowing me <br className='res-br'/> to successfully communicate design ideas to stakeholders and design teams. With my strong conceptualization ability, I am able to <br className='res-br'/> visualize and create beautiful works. Lastly, you can find me mostly tweaking stylesheets and creating fluid user experiences.</p>
                 <hr className='about3-hr  hr2'></hr>
@@ -88,12 +88,12 @@ function About_page() {
             <div className='continue'>
                 <Link to='/Work2'><h4>Lets Continue to my work <FaLongArrowAltRight className='arrow' /></h4></Link>
                 <div className='icons'>
-                    <a href='https://twitter.com/CoachJephthah' target='_blank'><FaTwitter className='icon twitter'/></a>
+                    <a href='https://github.com/Jephthahndukwe' target='_blank'><FaTwitter className='icon twitter'/></a>
                     <a href='https://web.facebook.com/chika.ndukwe.39904/' target="_blank"><FaFacebook className='icon facebook'/></a>
                     <a href='https://www.linkedin.com/in/jephthah-ndukwe' target="_blank"><FaLinkedin className='icon linkedin'/></a>
                     <a href='https://github.com/Jephthahndukwe' target="_blank"><FaGithub className='icon githubs'/></a>
                     <a href='https://dribbble.com/jephthahndukwe' target='_blank'><FaDribbble className='icon dribbble'/></a>
-                    <a href='https://www.instagram.com/jephthah_ndukwe' target="_blank"><FaInstagram className='icon instagram'/></a>                 
+                    <a href='https://www.instagram.com/nd_jephthah/' target="_blank"><FaInstagram className='icon instagram'/></a>                 
                 </div>
             </div>
         </div>
